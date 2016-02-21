@@ -1,14 +1,16 @@
 {
-  "name": "ensemblejs-start-here",
+  "name": "ensemblejs-latency",
   "version": "1.0.0",
-  "description": "Your game description goes here",
+  "description": "A demo for testing out latency optomisation techniques",
   "engines": {
     "node": "latest",
     "npm": "latest"
   },
   "dependencies": {
-    "ensemblejs": "^6.0.0-develop",
-    "gamepad-api-mappings": "^4.0.0"
+    "ensemblejs": "^6.0.0-develop-3",
+    "gamepad-api-mappings": "^4.0.0",
+    "jade": "^1.11.0",
+    "pixi.js": "^3.0.9"
   },
   "devDependencies": {
     "gulp": "^3.9.0"
