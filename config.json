@@ -1,0 +1,9 @@
+{
+  "game": {
+    "id": "distributedlife+latency+demo",
+    "name": "Latency Demo"
+  },
+  "ensemble": {
+    "dashboard": true
+  }
+}
