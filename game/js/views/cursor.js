@@ -1,5 +1,6 @@
 'use strict';
 
+var first = require('lodash').first;
 var PIXI = require('pixi.js');
 
 //jshint maxparams:false
@@ -55,8 +56,13 @@ module.exports = {
 
       tracker().onChangeOf('demo.position', updateBall, clientBall);
 
-      $()('#input').on('mousemove', function (e) {
-        directBall.position = {x: e.layerX, y: e.layerY};
+      $()('#input').on('touchstart touchmove', function (e) {
+        var touch = first(e.touches);
+
+        directBall.position = {
+          x: touch.clientX - touch.target.offsetLeft,
+          y: touch.clientY - touch.target.offsetTop
+        };
       });
 
       define()('OnRenderFrame', function OnRenderFrame () {

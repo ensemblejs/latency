@@ -4,6 +4,13 @@
     "name": "Latency Demo"
   },
   "ensemble": {
-    "dashboard": true
+    "maxPlayers": 10
+  },
+  "debug": {
+    "develop": true,
+    "multiplayer": true
+  },
+  "logging": {
+    "logLevel": "info"
   }
 }

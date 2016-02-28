@@ -8,7 +8,7 @@ module.exports = {
   type: 'ActionMap',
   func: function() {
     return {
-      'cursor': [{call: storeCursor}]
+      'touch0': [{call: storeCursor}]
     };
   }
 };
