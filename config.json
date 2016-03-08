@@ -4,7 +4,7 @@
     "name": "Latency Demo"
   },
   "ensemble": {
-    "maxPlayers": 10
+    "maxPlayers": 25
   },
   "debug": {
     "develop": true,
